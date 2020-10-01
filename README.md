@@ -1,5 +1,5 @@
 # Blog
-Personal blog, new users can be created (only a registered user can post new posts).
+Public blog, new users can be created (only a registered user can post new posts).
 All users and posts are stored in MongoDB (each post according to its user).
 All photos of the new posts are automatically saved in a personal cloud.
 
