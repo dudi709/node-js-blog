@@ -9,14 +9,10 @@ npm start
 ```
 After running you can make changes to a particular file and save and the changes will be updated automatically.
 
+you can see your blog [HERE](http://localhost:4000/)
 
 
-
-
-
-
-
-# Preview:
+## Preview:
 
 ### Home page:
 <img src="https://github.com/dudi709/node-js-blog/blob/master/public/preview/homePage.jpg" />
