@@ -8,7 +8,6 @@ All photos of the new posts are automatically saved in a personal cloud.
 npm start
 ```
 After running you can make changes to a particular file and save and the changes will be updated automatically.
-after running make ".env" file
 
 you can see your blog [HERE](http://localhost:4000/)
 
