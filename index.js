@@ -1,3 +1,4 @@
+const app_port = process.env.PORT || 3000
 require('dotenv').config();
 const express = require("express");
 const mongoose = require("mongoose");
@@ -84,6 +85,6 @@ app.post('/users/register', redirectIfAuthenticated, storeUserController);
 
 app.use((req, res) => res.render('not-found'));
 
-app.listen(process.env.PORT, () => {
-    console.log(`"App listen on port ${process.env.PORT}"`)
+app.listen(app_port, () => {
+    console.log(`"App listen on port ${app_port}"`)
 });
